@@ -1,0 +1,14 @@
+Factory Design Pattern
+
+- When there is a super class and multiple subclasses and we want to get object
+    of subclasses based on input requirement.
+
+- Then we create a factory class which takes the responsibility of creating
+    object of the class based on the input parameter
+
+- Remove the object instantiation part from the client side (Factory responsibility)
+
+Advantage of Factory Design Pattern
+
+1. Focus on creating object for the interface rather than implementation
+2. Loose coupling, more robust code
